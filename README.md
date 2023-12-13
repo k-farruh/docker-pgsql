@@ -17,3 +17,5 @@ docker rm -f $(docker ps -aq)
 docker images
 
 docker rmi -f $(docker images -q)
+
+good tutorial - https://www.youtube.com/watch?v=pTFZFxd4hOI&ab_channel=ProgrammingwithMosh
