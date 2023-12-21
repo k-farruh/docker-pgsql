@@ -17,3 +17,5 @@ docker rm -f $(docker ps -aq)
 docker images
 
 docker rmi -f $(docker images -q)
+docker ps -a
+Adham Testing
